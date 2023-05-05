@@ -16,4 +16,5 @@ const listaItems = ingredients.map(ingrediente => {
 });
 
 // Agrega todos los elementos <li> al elemento <ul>
-listaItems.forEach(item => listaIngredientes.appendChild(item));
+//listaItems.forEach(item => listaIngredientes.appendChild(item));
+listaIngredientes.append(...listaItems);
